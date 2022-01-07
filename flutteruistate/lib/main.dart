@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutteruistate/ui/pages/pages.dart';
+import 'package:get/get.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,8 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: SignInPage(),
+    return GetMaterialApp(
+      home: SignUpPage(),
     );
   }
 }

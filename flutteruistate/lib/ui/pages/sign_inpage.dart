@@ -128,7 +128,9 @@ class _SignInPageState extends State<SignInPage> {
                     color: greyColor,
                   )
                 : ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.to(SignUpPage());
+                    },
                     style: ElevatedButton.styleFrom(
                       primary: greyColor,
                       shape: RoundedRectangleBorder(
