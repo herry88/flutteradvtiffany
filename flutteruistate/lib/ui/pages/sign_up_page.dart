@@ -161,7 +161,9 @@ class _SignUpPageState extends State<SignUpPage> {
               horizontal: defaultMargin,
             ),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Get.to(AddressPage());
+              },
               style: ElevatedButton.styleFrom(
                 primary: mainColor,
                 shape: RoundedRectangleBorder(

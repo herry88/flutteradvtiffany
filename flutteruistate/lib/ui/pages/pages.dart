@@ -9,3 +9,4 @@ import 'package:supercharged/supercharged.dart';
 part 'general_page.dart';
 part 'sign_inpage.dart';
 part 'sign_up_page.dart';
+part 'addresspage.dart';
