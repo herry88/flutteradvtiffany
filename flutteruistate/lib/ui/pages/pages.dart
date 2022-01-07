@@ -6,3 +6,4 @@ import 'package:supercharged/supercharged.dart';
 
 ///for ui
 part 'general_page.dart';
+part 'sign_inpage.dart';
